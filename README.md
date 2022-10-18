@@ -1,4 +1,4 @@
-# ICS2O-Unit-2-04-JS-Area
+# ICS2O-Unit-2-05-JS-B
 
 [![Mr Coxall's Super Linter](https://github.com/MikeyGloriani/ICS2O-Unit-2-05-JS-B/workflows/Mr%20Coxall's%20Super%20Linter/badge.svg)](https://github.com/MikeyGloriani/ICS2O-Unit-2-05-JS-B/actions/)
 
