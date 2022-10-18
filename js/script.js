@@ -4,16 +4,19 @@
 
 "use strict"
 /**
- * This function calculates area of a triangle
+ * This function calculates your salary
  */
+ 
 function calculate() {
   // input
-  const base = parseInt(document.getElementById("base-of-triangle").value)
-  const height = parseInt(document.getElementById("height-of-triangle").value)
+  const hours = parseInt(document.getElementById("hours-worked").value)
+  const money = parseInt(document.getElementById("hourly-rate").value)
 
   // process
-  const area = (base * height) / 2
+  const payment = (hours * money) * (1.00-0.18)
+  const taxes = (hours * money) * 0.18
 
   // output
-  document.getElementById("area").innerHTML = "Area is: " + area + " cm²"
+  document.getElementById('pay').innerHTML = `Your pay will be: $ ${payment.toFixed(2)}`
+  document.getElementById('taxes').innerHTML = `The Government will take: $ ${taxes.toFixed(2)}`
 }
